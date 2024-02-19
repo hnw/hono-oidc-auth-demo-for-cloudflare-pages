@@ -1,13 +1,15 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "dotenv -e .env.local vite",
     "build": "vite build",
     "preview": "wrangler pages dev dist",
     "deploy": "$npm_execpath run build && wrangler pages deploy dist"
   },
   "dependencies": {
-    "hono": "^4.0.1"
+    "@hono/oidc-auth": "^1.0.1",
+    "dotenv-cli": "^7.3.0",
+    "hono": "^4.0.4"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240129.0",
