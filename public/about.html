@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TX2SPPH');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="「秘密の質問」用のパスワードジェネレータです。日本語のランダム文字列を生成します。">
+    <meta name="author" content="@hnw">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="秘密の答えジェネレータ">
+    <meta property="og:url" content="https://himitsu.hnw.jp/">
+    <meta property="og:description" content="「秘密の質問」用のパスワードジェネレータです。日本語のランダム文字列を生成します。">
+    <meta property="og:site_name" content="秘密の答えジェネレータ">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@hnw">
+
+    <title>秘密の答えジェネレータ - About this service</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://maxcdn.bootstrapcdn.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/starter-template.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TX2SPPH" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=".">秘密の答えジェネレータ</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="starter-template">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1>本サービスについて</h1>
+            <p>本サービスは、任意文字数のひらがな・漢字交じりのランダム文字列を各ユーザーのブラウザ上で生成するものです。</p>
+            <p>Webサービスやスマートフォンアプリにおいて、「秘密の質問」と称して「母親の旧姓は？」「好きな食べ物は？」など第三者でも推測可能なセキュリティ質問を設定させるような仕組みが存在します。</p>
+            <p>このような場合、十分な強度を持ったランダム文字列を設定することでユーザーは自衛することができます。一方で、入力文字列に対し「ひらがなのみ」「全角文字列のみ」のような制約がある場合には、通常のパスワード自動生成プログラムでは対応できないという問題があります。</p>
+            <p>本サービスはこの問題を解決し、マルチバイト文字を要求する「秘密の質問」に対してもセキュアなランダム文字列の設定を可能にします。</p>
+            <h1>利用上の注意点</h1>
+            <p>生成された文字列をサービス登録後に破棄してしまうことはオススメしません。破棄するのでなく、パスワードリマインダーのメモ欄などに記録しておいた方が後々面倒が無いように思います。</p>
+            <p>秘密の質問の答えを平文で保存しておくのが不安な場合は、正しい答えと自動生成文字列を組み合わせて使うこともできます。たとえば「母親の旧姓は？」に対して「高橋ゃたぞゅもぽねん」などと入力し、後ろの8文字だけを平文で記録しておけば多少は安心度が増すかもしれません。</p>
+            <h1>技術面・セキュリティ面について</h1>
+            <p>ブログ記事<a href="http://d.hatena.ne.jp/hnw/20180417"> 日本語のパスワードジェネレータを作ってみた</a>をご参照ください。</p>
+            <h1>バグ報告・要望について</h1>
+            <p><a href="https://github.com/hnw/himitsu.hnw.jp/issues">GitHubのissue</a>にて受け付けています。</p>
+            <h1>ライセンスについて</h1>
+            <p>本サービスでは下記のOSSを利用しています。これらについては各OSSのライセンスに従います。</p>
+            <ul>
+              <li><a href="http://honokak.osaka/">Honoka</a></li>
+            </ul>
+            <p>上記OSS以外は<a href="https://github.com/hnw/himitsu.hnw.jp/blob/master/LICENSE">MIT License</a>とします。</p>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
